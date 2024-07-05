@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::533267327306:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-McnX3lBZytcW
       username: system:node:{{EC2PrivateDNSName}}
-mapUsers: |
+  mapUsers: |
     - groups:
       - expense-pod-reader
       userarn: arn:aws:iam::533267327306:user/harish
